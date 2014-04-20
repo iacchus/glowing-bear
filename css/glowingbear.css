@@ -145,7 +145,7 @@ input[type=text], input[type=password], .badge {
 }
 #topbar .title {
     position: fixed;
-    left: 145px; /* sidebar */
+    left: 15%; /* sidebar */
     overflow: hidden;
 }
 #topbar .actions {
@@ -174,7 +174,7 @@ input[type=text], input[type=password], .badge {
 }
 #sidebar {
     position: fixed;
-    width: 140px;
+    width: 15%;
     min-height: 100%;
     height: 100%;
     overflow-y: auto;
@@ -196,7 +196,7 @@ input[type=text], input[type=password], .badge {
 
 #sidebar .badge {
     border-radius: 0;
-    margin-right: -15px;
+    margin-right: -10px;
 }
 
 #sidebar ul.indented li.indent span.buffername {
@@ -209,7 +209,7 @@ input[type=text], input[type=password], .badge {
 
 #nicklist {
     position: fixed;
-    width: 100px;
+    width: 15%;
     min-height: 100%;
     height: 100%;
     overflow-y: auto;
@@ -264,7 +264,7 @@ input[type=text], input[type=password], .badge {
     position: relative;
     height: 98%;
     overflow-y: auto;
-    width: auto;
+    width: 70%;
     top: 35px; /* topbar */
     padding-bottom: 10px;
     margin-right: -5px;
@@ -272,17 +272,17 @@ input[type=text], input[type=password], .badge {
     transition:0.35s ease all;
 }
 .withnicklist {
-    margin-right: 100px !important; /* nicklist */
+    margin-right: 15% !important; /* nicklist */
 }
 .withsidebar {
-    margin-left: 145px;    /* sidebar */
+    margin-left: 15%;    /* sidebar */
 }
 #bufferlines .btn {
     font-family: sans-serif;
 }
 
 .navbar-fixed-bottom {
-    margin: 0 5px 0 145px; /* sidebar */
+    margin: 0 0.5% 0 15.5%; /* sidebar */
     -webkit-transition:0.35s ease all;
     transition:0.35s ease all;
 }
@@ -374,10 +374,7 @@ h2 span, h2 small {
     }
 
     .bufferline {
-        display: inline-block;
-        padding-top: 4px;
-        padding-bottom: 3px;
-        line-height: 15px;
+        line-height: 25px;
     }
 
     #sidebar {
