@@ -365,6 +365,18 @@ h2 span, h2 small {
     display: block;
 }
 
+/* This works fine if you're using autosort.py plugin */
+.buffer a[title^="irc.server."]
+{
+	background-color: #333;
+	font-weight: bold;
+}
+
+.buffer a[title="core.weechat"]
+{
+	background-color: #333;
+}
+
 /* */
 /* Mobile layout */
 /* */
