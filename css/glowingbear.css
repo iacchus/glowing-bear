@@ -145,7 +145,7 @@ input[type=text], input[type=password], .badge {
 }
 #topbar .title {
     position: fixed;
-    left: 20%; /* sidebar */
+    left: 15%; /* sidebar */
     overflow: hidden;
 }
 #topbar .actions {
@@ -174,7 +174,7 @@ input[type=text], input[type=password], .badge {
 }
 #sidebar {
     position: fixed;
-    width: 20%;
+    width: 15%;
     min-height: 100%;
     height: 100%;
     overflow-y: auto;
@@ -195,7 +195,7 @@ input[type=text], input[type=password], .badge {
 }
 
 #sidebar .badge {
-    border-radius: 0;
+    border-radius: 3px;
     margin-right: -10px;
 }
 
@@ -245,8 +245,9 @@ input[type=text], input[type=password], .badge {
 }
 
 .nav-pills > li > a {
-    border-radius: 3px;
+    border-radius: 0;
     color: #ddd;
+    padding: 15px 3px;
 }
 .nav-pills > li > a:hover, .nav-pills > li > a:hover span {
     color: #222;
@@ -264,7 +265,7 @@ input[type=text], input[type=password], .badge {
     position: relative;
     height: 98%;
     overflow-y: auto;
-    width: 65%;
+    width: 70%;
     top: 35px; /* topbar */
     padding-bottom: 10px;
     margin-right: -5px;
