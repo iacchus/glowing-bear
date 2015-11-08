@@ -247,7 +247,7 @@ input[type=text], input[type=password], .badge {
 .nav-pills > li > a {
     border-radius: 0;
     color: #ddd;
-    padding: 15px 3px;
+    padding: 3px 15px;
 }
 .nav-pills > li > a:hover, .nav-pills > li > a:hover span {
     color: #222;
