@@ -267,6 +267,7 @@ input[type=text], input[type=password], .badge {
     overflow-y: auto;
     width: 70%;
     top: 35px; /* topbar */
+    padding: 7px;
     padding-bottom: 10px;
     margin-right: -5px;
     -webkit-transition:0.35s ease all;
