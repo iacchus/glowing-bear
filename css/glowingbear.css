@@ -181,7 +181,7 @@ input[type=text], input[type=password], .badge {
     overflow-x: hidden;
     padding-top: 35px; /* topbar */
     padding-bottom: 1px; /* need to force a padding here */
-    font-size: smaller;
+    font-size: 14px;
     -webkit-transition:0.35s ease all;
     transition:0.35s ease all;
 }
