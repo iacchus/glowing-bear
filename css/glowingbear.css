@@ -198,6 +198,14 @@ input[type=text], input[type=password], .badge {
 #sidebar .badge {
     border-radius: 3px;
     margin-right: -10px;
+
+	box-shadow: 0;
+	text-shadow: 0;
+	font-weight: normal;
+	background-color: rgba(0,0,0,0.3);
+    
+    box-shadow: 0px, 0px inset;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.3);
 }
 
 #sidebar ul.indented li.indent span.buffername {
@@ -248,7 +256,7 @@ input[type=text], input[type=password], .badge {
 .nav-pills > li > a {
     border-radius: 0;
     color: #ddd;
-    padding: 3px 15px;
+    padding: 1px 15px;
 }
 .nav-pills > li > a:hover, .nav-pills > li > a:hover span {
     color: #222;
@@ -406,6 +414,11 @@ h2 span, h2 small {
         -webkit-box-shadow: 0px 0px 120px #000;
         box-shadow: 0px 0px 120px #000;
         bottom: 0px;
+    }
+
+    #topbar
+    {
+	font-family: 'Open Sans Condensed', sans-serif;
     }
 
     #topbar .title {
