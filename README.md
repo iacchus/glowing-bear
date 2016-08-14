@@ -1,6 +1,14 @@
 A web client for WeeChat
 ========================
 
+Special fork to my personal changes to Glowing Bear style.
+
+## See it at
+
+https://iacchus.github.io/glowing-bear/
+
+* * *
+
 Required Weechat version: 0.4.2
 
 To use the web interface you first need to set a relay and a password:
